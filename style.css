@@ -12,6 +12,7 @@
   align-items: center;
   background-color: rgb(24, 24, 24);
   padding-inline: 30px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -22,6 +23,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 0px;
 }
 
 .nav-list li {
@@ -41,4 +43,40 @@
 .nav-list .nav-list-item:hover,
 .nav-list .nav-list-item:active {
   color: rgb(197, 0, 0);
+}
+
+/*Hero Section*/
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 40px;
+  gap: 50px;
+}
+
+.img-box img {
+  height: 320px;
+}
+
+.hero-content-box h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-content-box h1 span {
+  color: rgb(197, 0, 0);
+}
+
+.hero-content-box p {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.hero-content-box a:link,
+.hero-content-box a:visited {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(197, 0, 0);
+  padding: 16px 15px;
 }
