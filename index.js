@@ -481,3 +481,56 @@ productsGrid.addEventListener("click", function (event) {
 modalCloseBtn.addEventListener("click", function () {
   productModal.classList.remove("show");
 });
+
+//Favourite button && local storrage
+let favorites = localStorage.getItem("favorites");
+
+if (favorites === null) {
+  favorites = "";
+}
+
+function saveFavorites() {
+  localStorage.setItem("favorites", favorites);
+}
+
+function markFavoriteButtons() {
+  const favoriteButtons = document.querySelectorAll(".favorite-btn");
+
+  favoriteButtons.forEach(function (button) {
+    const productId = button.getAttribute("product-id");
+    const icon = button.querySelector("i");
+
+    if (favorites.includes(productId)) {
+      button.classList.add("active");
+      icon.classList.remove("bi-heart");
+      icon.classList.add("bi-heart-fill");
+    }
+  });
+}
+
+productsGrid.addEventListener("click", function (event) {
+  const clickedButton = event.target;
+
+  if (clickedButton.classList.contains("favorite-btn")) {
+    const productId = clickedButton.getAttribute("product-id");
+    const icon = clickedButton.querySelector("i");
+
+    if (favorites.includes(productId)) {
+      favorites = favorites.replace(productId, "");
+
+      clickedButton.classList.remove("active");
+      icon.classList.remove("bi-heart-fill");
+      icon.classList.add("bi-heart");
+    } else {
+      favorites = favorites + productId + ",";
+
+      clickedButton.classList.add("active");
+      icon.classList.remove("bi-heart");
+      icon.classList.add("bi-heart-fill");
+    }
+
+    saveFavorites();
+  }
+});
+
+markFavoriteButtons();
