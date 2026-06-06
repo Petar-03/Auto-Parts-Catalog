@@ -420,3 +420,16 @@
 .modal-favorite-btn:hover {
   background-color: #9e0000;
 }
+
+/*footer*/
+footer {
+  padding: 20px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  font-size: 15px;
+  margin: 0;
+}
