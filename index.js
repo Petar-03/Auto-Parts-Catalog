@@ -312,3 +312,102 @@ function createRatingStars(rating) {
 
   return ratingStars;
 }
+
+/*Filtering products - One button: 4 products, All button: 20products*/
+const allButton = document.querySelector(".all-btn");
+const bmwButton = document.querySelector(".bmw-btn");
+const mercedesButton = document.querySelector(".mercedes-btn");
+const audiButton = document.querySelector(".audi-btn");
+const subaruButton = document.querySelector(".subaru-btn");
+const toyotaButton = document.querySelector(".toyota-btn");
+
+function removeActiveClass() {
+  allButton.classList.remove("active");
+  bmwButton.classList.remove("active");
+  mercedesButton.classList.remove("active");
+  audiButton.classList.remove("active");
+  subaruButton.classList.remove("active");
+  toyotaButton.classList.remove("active");
+}
+
+allButton.addEventListener("click", function () {
+  removeActiveClass();
+  allButton.classList.add("active");
+
+  renderProducts(products);
+});
+
+bmwButton.addEventListener("click", function () {
+  removeActiveClass();
+  bmwButton.classList.add("active");
+
+  const bmwProducts = [];
+
+  products.forEach(function (product) {
+    if (product.brand === "bmw") {
+      bmwProducts.push(product);
+    }
+  });
+
+  renderProducts(bmwProducts);
+});
+
+mercedesButton.addEventListener("click", function () {
+  removeActiveClass();
+  mercedesButton.classList.add("active");
+
+  const mercedesProducts = [];
+
+  products.forEach(function (product) {
+    if (product.brand === "mercedes") {
+      mercedesProducts.push(product);
+    }
+  });
+
+  renderProducts(mercedesProducts);
+});
+
+audiButton.addEventListener("click", function () {
+  removeActiveClass();
+  audiButton.classList.add("active");
+
+  const audiProducts = [];
+
+  products.forEach(function (product) {
+    if (product.brand === "audi") {
+      audiProducts.push(product);
+    }
+  });
+
+  renderProducts(audiProducts);
+});
+
+subaruButton.addEventListener("click", function () {
+  removeActiveClass();
+  subaruButton.classList.add("active");
+
+  const subaruProducts = [];
+
+  products.forEach(function (product) {
+    if (product.brand === "subaru") {
+      subaruProducts.push(product);
+    }
+  });
+
+  renderProducts(subaruProducts);
+});
+
+toyotaButton.addEventListener("click", function () {
+  removeActiveClass();
+  toyotaButton.classList.add("active");
+
+  const toyotaProducts = [];
+
+  products.forEach(function (product) {
+    if (product.brand === "toyota") {
+      toyotaProducts.push(product);
+    }
+  });
+
+  renderProducts(toyotaProducts);
+});
