@@ -131,6 +131,51 @@
           <button class="filter-btn toyota-btn">Toyota</button>
         </div>
         <div class="products-grid"></div>
+        <div class="product-modal" id="productModal">
+          <div class="product-modal-content">
+            <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+
+            <div class="modal-left-side">
+              <img
+                src=""
+                alt=""
+                class="modal-product-img"
+                id="modalProductImage"
+              />
+            </div>
+
+            <div class="modal-right-side">
+              <h3 class="modal-product-title" id="modalProductTitle"></h3>
+
+              <p class="modal-product-price" id="modalProductPrice"></p>
+
+              <div class="modal-product-rating">
+                <div id="modalProductStars"></div>
+                <span id="modalProductRating"></span>
+              </div>
+
+              <p
+                class="modal-product-description"
+                id="modalProductDescription"
+              ></p>
+
+              <p class="modal-product-brand">
+                Марка:
+                <span id="modalProductBrand"></span>
+              </p>
+
+              <p class="modal-product-stock">
+                Наличност:
+                <span>В наличност</span>
+              </p>
+
+              <button class="modal-favorite-btn" id="modalFavoriteBtn">
+                <i class="bi bi-heart"></i>
+                Добави към любими
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <script

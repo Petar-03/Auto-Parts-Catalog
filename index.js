@@ -7,7 +7,8 @@ const products = [
     price: 19.99,
     rating: 4.5,
     image: "img/bmwParts/bmw-sweshti.jpg",
-    description: "Комплект запалителни свещи, подходящ за BMW модели.",
+    description:
+      "Комплект запалителни свещи, подходящ за BMW модели. Осигурява надеждно запалване, стабилна работа на двигателя и оптимална ефективност при ежедневна употреба.",
   },
   {
     id: 2,
@@ -16,7 +17,8 @@ const products = [
     price: 26.93,
     rating: 5,
     image: "img/bmwParts/bmw-nakladki.jpg",
-    description: "Комплект спирачни накладки за BMW автомобили.",
+    description:
+      "Комплект спирачни накладки за BMW автомобили. Осигуряват надеждно спиране, добра устойчивост при натоварване и комфортно шофиране при ежедневна употреба.",
   },
   {
     id: 3,
@@ -25,7 +27,8 @@ const products = [
     price: 42.93,
     rating: 4.6,
     image: "img/bmwParts/bmw-diskowe.jpg",
-    description: "Комплект спирачни дискове за BMW автомобили.",
+    description:
+      "Комплект спирачни дискове за BMW автомобили. Осигуряват стабилно и ефективно спиране, висока устойчивост при натоварване и надеждна работа при различни условия на шофиране.",
   },
   {
     id: 4,
@@ -34,7 +37,8 @@ const products = [
     price: 261.83,
     rating: 4.8,
     image: "img/bmwParts/bmw-amortisiori.jpg",
-    description: "Комплект амортисьори за BMW автомобили.",
+    description:
+      "Комплект амортисьори за BMW автомобили. Осигуряват по-добра стабилност, комфортно возене и надеждно поведение на автомобила при различни пътни условия.",
   },
 
   // Mercedes
@@ -45,7 +49,8 @@ const products = [
     price: 21,
     rating: 4.3,
     image: "img/mercedesParts/mercedes-sweshti.jpg",
-    description: "Комплект запалителни свещи за стабилна работа на двигателя.",
+    description:
+      "Комплект запалителни свещи за Mercedes. Осигурява надеждно запалване, стабилна работа на двигателя и оптимална ефективност при ежедневна употреба. Дълъг живот.",
   },
   {
     id: 6,
@@ -54,7 +59,8 @@ const products = [
     price: 94.99,
     rating: 4,
     image: "img/mercedesParts/mercedes-nakladki.jpg",
-    description: "Комплект спирачни накладки за Mercedes автомобили.",
+    description:
+      "Комплект спирачни накладки за Mercedes автомобили. Осигуряват надеждно спиране, добра устойчивост при натоварване и комфортно шофиране при ежедневна употреба.",
   },
   {
     id: 7,
@@ -63,7 +69,8 @@ const products = [
     price: 49.57,
     rating: 3.5,
     image: "img/mercedesParts/mercedes-diskowe.jpg",
-    description: "Комплект спирачни дискове за Mercedes автомобили.",
+    description:
+      "Комплект спирачни дискове за Mercedes автомобили. Осигуряват стабилно и ефективно спиране, висока устойчивост при натоварване и надеждна работа при различни условия на шофиране.",
   },
   {
     id: 8,
@@ -73,7 +80,7 @@ const products = [
     rating: 4.6,
     image: "img/mercedesParts/mercedes-amortisiori.jpg",
     description:
-      "Комплект амортисьори за Mercedes автомобили за добра стабилност на пътя.",
+      "Комплект амортисьори за Mercedes автомобили. Осигуряват по-добра стабилност, комфортно возене и надеждно поведение на автомобила при различни пътни условия.",
   },
 
   // Audi
@@ -84,7 +91,8 @@ const products = [
     price: 30.99,
     rating: 4.7,
     image: "img/audiParts/audi-sweshti.jpg",
-    description: "Комплект запалителни свещи за стабилна работа на двигателя.",
+    description:
+      "Комплект запалителни свещи за Audi автомобили. Осигурява надеждно запалване, стабилна работа на двигателя и оптимална ефективност при ежедневна употреба. Дълъг живот.",
   },
   {
     id: 10,
@@ -93,7 +101,8 @@ const products = [
     price: 40.9,
     rating: 5,
     image: "img/audiParts/audi-nakladki.jpg",
-    description: "Комплект спирачни накладки за Audi.",
+    description:
+      "Комплект спирачни накладки за Audi автомобили. Осигуряват надеждно спиране, добра устойчивост при натоварване и комфортно шофиране при ежедневна употреба.",
   },
   {
     id: 11,
@@ -102,7 +111,8 @@ const products = [
     price: 52.7,
     rating: 4,
     image: "img/audiParts/audi-diskowe.jpg",
-    description: "Комплект спирачни дискове за стабилно и сигурно спиране.",
+    description:
+      "Комплект спирачни дискове за Auidi автомобили. Осигуряват стабилно и ефективно спиране, висока устойчивост при натоварване и надеждна работа при различни условия на шофиране.",
   },
   {
     id: 12,
@@ -111,7 +121,8 @@ const products = [
     price: 328.8,
     rating: 4.3,
     image: "img/audiParts/audi-amortisiori.jpg",
-    description: "Комплект спортни амортисьори за Audi автомобили",
+    description:
+      "Комплект спортни амортисьори за Audi автомобили. Осигуряват по-добра стабилност, комфортно возене и надеждно поведение на автомобила при различни пътни условия.",
   },
 
   // Subaru
@@ -122,7 +133,8 @@ const products = [
     price: 23.99,
     rating: 4.8,
     image: "img/subaruParts/subaru-sweshti.jpg",
-    description: "Комплект запалителни свещи, подходящи за Subaru модели.",
+    description:
+      "Комплект запалителни свещи, подходящи за Subaru модели. Осигурява надеждно запалване, стабилна работа на двигателя и оптимална ефективност при ежедневна употреба. Дълъг живот.",
   },
   {
     id: 14,
@@ -131,7 +143,8 @@ const products = [
     price: 30.5,
     rating: 4.7,
     image: "img/subaruParts/subaru-nakladki.jpg",
-    description: "Комплект спирачни накладки за Subaru.",
+    description:
+      "Комплект спирачни накладки за Subaru автомобили. Осигуряват надеждно спиране, добра устойчивост при натоварване и комфортно шофиране при ежедневна употреба.",
   },
   {
     id: 15,
@@ -141,7 +154,7 @@ const products = [
     rating: 3.3,
     image: "img/subaruParts/subaru-diskowe.jpg",
     description:
-      "Комплект спирачни дискове за надеждно спиране и контрол Subaru.",
+      "Комплект спирачни дискове за надеждно спиране и контрол Subaru. Осигуряват стабилно и ефективно спиране, висока устойчивост при натоварване и надеждна работа при различни условия на шофиране.",
   },
   {
     id: 16,
@@ -150,7 +163,8 @@ const products = [
     price: 250,
     rating: 4.8,
     image: "img/subaruParts/subaru-amortisiori.jpg",
-    description: "Комплект спортно окачване за Subaru.",
+    description:
+      "Комплект спортно окачване за Subaru. Осигуряват по-добра стабилност, комфортно возене и надеждно поведение на автомобила при различни пътни условия.",
   },
 
   //Toyota
@@ -161,7 +175,8 @@ const products = [
     price: 21.99,
     rating: 4.9,
     image: "img/toyotaParts/toyota-sweshti.jpg",
-    description: "Комплект запалителни свещи за Toyota автомобили.",
+    description:
+      "Комплект запалителни свещи за Toyota автомобили. Осигурява надеждно запалване, стабилна работа на двигателя и оптимална ефективност при ежедневна употреба. Дълъг живот.",
   },
   {
     id: 18,
@@ -170,7 +185,8 @@ const products = [
     price: 32.7,
     rating: 4.5,
     image: "img/toyotaParts/toyota-nakladki.jpg",
-    description: "Комплект Toyota накладки за моментално спиране.",
+    description:
+      "Комплект Toyota накладки за моментално спиране. Осигуряват надеждно спиране, добра устойчивост при натоварване и комфортно шофиране при ежедневна употреба.",
   },
   {
     id: 19,
@@ -179,7 +195,8 @@ const products = [
     price: 27.5,
     rating: 4.4,
     image: "img/toyotaParts/toyota-diskowe.jpg",
-    description: "Комплект спирачни дискове за Toyota модели.",
+    description:
+      "Комплект спирачни дискове за Toyota модели. Осигуряват стабилно и ефективно спиране, висока устойчивост при натоварване и надеждна работа при различни условия на шофиране.",
   },
   {
     id: 20,
@@ -188,7 +205,8 @@ const products = [
     price: 200,
     rating: 4.6,
     image: "img/toyotaParts/toyota-amortisiori.jpg",
-    description: "Комплект надеждени амортисьори за Toyota автомобили.",
+    description:
+      "Комплект надеждени амортисьори за Toyota автомобили. Осигуряват по-добра стабилност, комфортно возене и надеждно поведение на автомобила при различни пътни условия.",
   },
 ];
 
@@ -410,4 +428,56 @@ toyotaButton.addEventListener("click", function () {
   });
 
   renderProducts(toyotaProducts);
+});
+
+//Products modal
+const productModal = document.querySelector("#productModal");
+const modalCloseBtn = document.querySelector("#modalCloseBtn");
+
+const modalProductImage = document.querySelector("#modalProductImage");
+const modalProductTitle = document.querySelector("#modalProductTitle");
+const modalProductPrice = document.querySelector("#modalProductPrice");
+const modalProductStars = document.querySelector("#modalProductStars");
+const modalProductRating = document.querySelector("#modalProductRating");
+const modalProductDescription = document.querySelector(
+  "#modalProductDescription"
+);
+const modalProductBrand = document.querySelector("#modalProductBrand");
+
+productsGrid.addEventListener("click", function (event) {
+  const clickedElement = event.target;
+
+  if (clickedElement.classList.contains("details-btn")) {
+    const clickedProductId = clickedElement.getAttribute("product-id");
+
+    let selectedProduct = null;
+
+    products.forEach(function (product) {
+      if (product.id == clickedProductId) {
+        selectedProduct = product;
+      }
+    });
+
+    if (selectedProduct !== null) {
+      modalProductImage.src = selectedProduct.image;
+      modalProductImage.alt = selectedProduct.title;
+
+      modalProductTitle.textContent = selectedProduct.title;
+      modalProductPrice.textContent = selectedProduct.price + " EUR";
+
+      modalProductStars.innerHTML = "";
+      const modalStars = createRatingStars(selectedProduct.rating);
+      modalProductStars.appendChild(modalStars);
+
+      modalProductRating.textContent = `(${selectedProduct.rating})`;
+      modalProductDescription.textContent = selectedProduct.description;
+      modalProductBrand.textContent = selectedProduct.brand.toUpperCase();
+
+      productModal.classList.add("show");
+    }
+  }
+});
+
+modalCloseBtn.addEventListener("click", function () {
+  productModal.classList.remove("show");
 });

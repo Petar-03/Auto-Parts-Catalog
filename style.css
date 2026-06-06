@@ -281,3 +281,134 @@
   border-color: rgb(197, 0, 0);
   color: rgb(197, 0, 0);
 }
+
+/*Modal css*/
+.product-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-modal.show {
+  display: flex;
+}
+
+.product-modal-content {
+  position: relative;
+  width: 620px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 30px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  border: none;
+  background-color: transparent;
+  color: rgb(197, 0, 0);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.modal-left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-product-img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+}
+
+.modal-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-product-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modal-product-price {
+  margin-bottom: 10px;
+  color: rgb(197, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modal-product-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#modalProductStars .stars {
+  display: flex;
+  gap: 2px;
+  color: #f5b400;
+  font-size: 15px;
+}
+
+#modalProductRating {
+  font-size: 15px;
+}
+
+.modal-product-description {
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.modal-product-brand,
+.modal-product-stock {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.modal-product-brand span {
+  font-weight: 700;
+}
+
+.modal-product-stock span {
+  color: #008000;
+  font-weight: 700;
+}
+
+.modal-favorite-btn {
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(197, 0, 0);
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-favorite-btn:hover {
+  background-color: #9e0000;
+}
