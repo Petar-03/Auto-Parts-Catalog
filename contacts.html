@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          src="img/logo.png"
+          alt="Логото на Auto Parts Catalog"
+        />
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html#home" class="nav-list-item">Начало</a>
+          </li>
+          <li>
+            <a href="index.html#product" class="nav-list-item">Продукти</a>
+          </li>
+          <li>
+            <a href="contacts.html" class="nav-list-item">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contacts-section">
+        <div class="contact-header">
+          <h1>Свържете се с нас!</h1>
+          <p>Имате въпрос? Попълнете формуляра и ние ще се свържем с вас.</p>
+        </div>
+        <div class="contacts-container">
+          <form action="#" method="#" id="form">
+            <label for="name">Име</label>
+            <input type="text" name="name" id="name" placeholder="Име" />
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="E-mail" />
+
+            <label for="select">Тема</label>
+            <select name="select" id="select">
+              <option value="">Изберете тема</option>
+              <option value="order">Въпрос за продукт</option>
+              <option value="delivery">Доставка</option>
+              <option value="favorites">Любими продукти</option>
+              <option value="other">Друго</option>
+            </select>
+
+            <label for="message">Съобщение</label>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Вашето съобщение"
+            />
+
+            <button type="submit" id="submit-btn">Изпрати</button>
+
+            <p id="form-message"></p>
+          </form>
+
+          <div class="contact-info-card">
+            <div class="contact-info">
+              <h2>Информация за контакт</h2>
+
+              <div class="contact-info-item">
+                <i class="bi bi-telephone-fill"></i>
+                <a href="tel:+359 88 1234567"> +359 88 123 4567</a>
+              </div>
+
+              <div class="contact-info-item">
+                <i class="bi bi-envelope-fill"></i>
+                <a href="mailto:info@autoparts.bg">info@autoparts.bg</a>
+              </div>
+
+              <div class="contact-info-item">
+                <i class="bi bi-geo-alt-fill"></i>
+                <a
+                  href="https://maps.app.goo.gl/rcrtePVjSL2NSGrH7"
+                  target="_blank"
+                  >Варна, България</a
+                >
+              </div>
+            </div>
+            <div class="contacts-more-info">
+              <h2>Работно време</h2>
+
+              <div class="working-time">
+                <p><strong>Понеделник - Петък</strong></p>
+                <p>09:00 - 18:00</p>
+              </div>
+
+              <div class="working-time">
+                <p><strong>Събота</strong></p>
+                <p>10:00 - 14:00</p>
+              </div>
+
+              <div class="working-time">
+                <p><strong>Неделя</strong></p>
+                <p>Почивен ден</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="form.js"></script>
+  </body>
+</html>
